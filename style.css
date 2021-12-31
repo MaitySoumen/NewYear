@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("cel.gif");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: #fff;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 4rem;
+    
+     
+}
+
+.countdown-container {
+    /*border: 2px solid red;*/
+    
+    border-radius: 5px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.big-text {
+    font-weight:bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.conutdown-el {
+    text-align: center;
+}
+
+.conutdown-el span {
+    font-size: 1.5rem;
+}
+footer {
+    padding-top:  350px;
+}
+
